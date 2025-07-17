@@ -28,6 +28,7 @@ const reqHandler = (req,res)=>{
 }
 
 const server = http.createServer(reqHandler)
+
 server.listen(port,(err)=>{
     if(err){
         console.log(err)
